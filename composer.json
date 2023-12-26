@@ -1,0 +1,17 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-readline": "*",
+        "ext-pdo": "*",
+      "ext-http": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
